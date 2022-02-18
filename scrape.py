@@ -44,3 +44,5 @@ for row in table_rows:
 
 with open("selectors.json", 'w') as f:
     json.dump(selectors, f)
+
+    my_scraper()
