@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-def my_scraper():
 # get the URL in a useable form
  url = "https://www.w3schools.com/cssref/css_selectors.asp"
 response = requests.get(url)
