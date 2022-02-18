@@ -4,7 +4,7 @@ import requests
 import json
 
 # get the URL in a useable form
- url = "https://www.w3schools.com/cssref/css_selectors.asp"
+url = "https://www.w3schools.com/cssref/css_selectors.asp"
 response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html.parser')
 
