@@ -24,7 +24,7 @@ table_rows = list(filter(filter_func, table_rows))
 # create the structure for the json file
 selectors = []
 
-for row in table_rows:
+for row in table_rows: 
     cells = list(row.select('td'))
     if cells:
         entry = {
