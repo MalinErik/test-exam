@@ -74,6 +74,10 @@ def write_json():
 def home():
     return render_template("index.html")
 
+# define route(s)
+@app.route("/")
+def home():
+    return render_template("index.html")
 
 @app.route("/css-selectors")
 def css_selectors():
