@@ -70,9 +70,9 @@ def write_json():
 
 
 # define route(s)
-@app.route("/")
-def home():
-    return render_template("index.html")
+@app.route("/webscraping")
+def webscraping():
+    return render_template("webscraping.html")
 
 # define route(s)
 @app.route("/")
