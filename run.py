@@ -1,7 +1,8 @@
 #import necessary modules
 from flask import Flask, render_template
 import json
-
+from bs4 import BeautifulSoup
+import requests
 
 # set up flask webserver
 app = Flask(__name__)
@@ -73,6 +74,12 @@ def write_json():
 @app.route("/webscraping")
 def webscraping():
     return render_template("webscraping.html")
+
+# define route(s)
+@app.route("/success")
+def success():
+    my_scraper()
+    return render_template("success.html")
 
 # define route(s)
 @app.route("/")
