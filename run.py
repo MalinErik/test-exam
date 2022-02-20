@@ -69,7 +69,6 @@ def write_json():
     # YOUR CODE GOES HERE
     pass
 
-
 # define route(s)
 @app.route("/webscraping")
 def webscraping():
