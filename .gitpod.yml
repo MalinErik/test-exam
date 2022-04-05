@@ -9,3 +9,4 @@ vscode:
   extensions:
     - ms-python.python
     - mhutchie.git-graph
+    - ms-toolsai.jupyter
